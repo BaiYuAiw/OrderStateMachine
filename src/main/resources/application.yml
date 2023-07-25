@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: liboyyds
+    url: jdbc:mysql://1.117.143.104:3306/pay_order?serverTimezone=UTC&useSSL=false&characterEncoding=UTF8
+    username: root
